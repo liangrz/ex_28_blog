@@ -1,5 +1,5 @@
 <?php
-include('./func/mysql.php');
+include('.././func/mysql.php');
 $show = './manage_type.html';
 $show_table = '';
 
@@ -63,5 +63,5 @@ foreach( $rs as $v ){//列类型表
 		$show_table .= '</tr>';
 }
 
-include('./module.html');
+include('.././admin/module.html');
 ?>

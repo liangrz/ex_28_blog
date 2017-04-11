@@ -2,7 +2,7 @@
 $show = './modify_article.html';
 
 
-include('./func/mysql.php');
+include('.././func/mysql.php');
 $database = 'ex28blog';
 sql_connect($database);
 
@@ -45,5 +45,5 @@ if($v['recommend']){//提供参数
 	$checked1 = '';
 }
 
-include('./module.html');
+include('.././admin/module.html');
 ?>

@@ -66,7 +66,7 @@ function pick_show_article($table,$select,$where,$order,$limit){
 				$post .= "<div class = 'date_click fl'>hits:{$v['hits']}</div>";
 				$post .= "<div class = 'clearfix'></div>";
 				$post .= "<div class = 'article_with_comment'>{$v['content']}</div>";
-				$post .= include('./comment_form.html');//评论表
+				$post .= include('.././comment_form.html');//评论表
 				$post .= "<div class = 'comment_list'>";
 					$post .=pick_show_comment();
 				$post .= "</div>";

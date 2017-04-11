@@ -1,7 +1,7 @@
 <?php
 $show = './manage_article.html';
 
-include('./func/mysql.php');
+include('.././func/mysql.php');
 //日常连接库
 $database = 'ex28blog';
 sql_connect($database);
@@ -80,5 +80,5 @@ foreach( $rs as $k=>$arr ){
 	$show_table .= '</tr>';
 }
 }*/
-include('./module.html');
+include('.././admin/module.html');
 ?>

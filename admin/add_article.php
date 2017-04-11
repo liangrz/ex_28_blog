@@ -1,6 +1,6 @@
 <?php
 $show ='./add_article.html';
-include('./func/mysql.php');
+include('.././func/mysql.php');
 
 //连接数据库
 $database = 'ex28blog';
@@ -28,5 +28,5 @@ if($_POST){
 	$a = sql_insert($table,$arr);
 }
 
-include('./module.html');
+include('.././admin/module.html');
 ?>

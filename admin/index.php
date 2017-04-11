@@ -1,4 +1,4 @@
 <?php
 $show = './admin.html';
-include('./module.html');
+include('.././admin/module.html');
 ?>

@@ -136,13 +136,8 @@ foreach( $matches_list as $filepath=>$include_list ){
 		$deepth = get_deepth($filepath);//深度
 		$key = find_key($filename,$filename_list);//匹配文件根路径
 		$relative_path = get_relative_path($deepth,$filepath_list[$key]);
-		var_dump($filepath);
-		var_dump($filename);
-		var_dump($include_content);
-		var_dump($relative_path);
-		var_dump($filepath);
 		$content = replace( $include_content , $relative_path ,$filepath );
-		var_dump($content);
+		write_file($filepath,$content);
 	}
 }
 
