@@ -1,0 +1,7 @@
+.content_with_comment{background:#ffffff;color:#534616;background:#ffffff url('../img/img02.jpg') no-repeat;}
+		.content_with_comment *{margin:10px 20px 10px;overflow:hidden;}
+		.article_with_comment{border-bottom:1px dashed #534616;padding-bottom:10px;}
+		.comment_list{margin:0;}
+		.comment{border:1px dashed #534616;padding:10px 20px 10px;}
+.comment_form *{color:#534616;}
+.comment_list .create_time{margin:0;padding-bottom:10px;}

@@ -1,0 +1,83 @@
+/* init */
+body{
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;;
+}
+ul{padding:0px;}
+li{list-style:none;margin-top:11px;}
+a{text-decoration:none;color:#ffffff;}
+div{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-weight:inherit;
+	font-style:inherit;
+	font-family:inherit;
+	vertical-align:baseline;
+	}
+.fl{float:left;}
+.fr{float:right;}
+.clearfix{clear:both;}
+	
+.wrapper{height:auto;}
+
+.sidebar{
+	color:#ffffff;
+	background:#333333;
+	width: 230px;
+	height: 100%;
+	font-size: 11px;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+	.sidebar ul{padding-left:24px;}
+	
+	.logo{margin:40px 0;}
+	.logout{padding-right:15px;margin-bottom:15px;}
+	.menu{}
+		.menu li{font-size:14px;width:206px;height:33px;background:url(../img/bg-menu-item-green.gif) no-repeat;line-height:33px;}
+		.menu li:hover{cursor:hand;}
+		.menu_item{padding-right:15px;}
+		#index{}
+		#setting{}
+		#article_manage{}
+		#type_manage{}
+
+.main{margin-left:230px;background:#fafafa;}
+	.main h2{margin: 20px 30px 20px;font-size:28px;}
+	.index p{margin:0 30px;}
+	.index a{color:#333;}
+	.index a:hover{text-decoration:underline;}
+	.index ul{margin-left:30px;margin-right:30px;overflow:hidden;padding-bottom:50px;border-bottom:1px solid #CCCCCC;}
+	.index li{width:123px;height:111px;border:1px solid #CCCCCC;
+		border-radius:20px;float:left;margin-right:15px;}
+	.index li p{margin:auto;text-align:center;font-size:13px;}
+	.index li img{margin-bottom:10px;margin-left:38px;margin-top:20px;}
+	#copyright{margin-left:30px;font-size:12px;color:#666;}
+	
+.add,.manage{
+	background:#ffffff;
+	font-size:15px;
+	font-weight:bold;
+	color:#555555;
+	margin:0 30px;
+	border:1px solid #CCCCCC;
+	border-radius:8px;}
+.add h2,.manage h2{
+	font-size:17px;
+	padding-left:15px;
+	line-height:50px;
+	margin:0;
+	height:50px;
+	border-bottom:1px solid #CCCCCC;
+	background:#E9E9E9;
+	}
+
+.add *{margin-left:10px;font-weight:bold;}
+.manage *{margin-left:10px;}
+.manage table *{padding:10px;}
+
+.addtype {color:#555555;}

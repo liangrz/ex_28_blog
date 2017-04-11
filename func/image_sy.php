@@ -1,0 +1,24 @@
+<?php
+function sy_image($big_path,$logo_path){
+	
+	//»ñÈ¡Í¼Ïñ
+	$big = imagecreatefromjpeg($big_path);
+	$logo = imagecreatefromjpeg($logo_path);
+	//±à¼­Í¼Ïñ
+	$logo_x = imagesx($logo);
+	$logo_y = imagesy($logo);
+	
+	//ls_x = logo_start-x
+	$ls_x = 0;
+	$ls_y = 0;
+	
+	imagecopy($big,$logo,0,0,$x1,$y1,$logo_x,$logo_y);
+	//Êä³öÍ¼Ïñ
+	header('Content-type:image/jpeg');
+	imagejpeg($big);
+	
+	//Ïú»Ù
+	imagedestroy($big);
+	imagedestroy($small);
+}	
+?>

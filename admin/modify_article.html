@@ -1,0 +1,17 @@
+<div class = 'add'>
+	<h2>修改文章</h2>
+	<form method = 'post' >
+		<p>文章标题</p>
+		<input type = 'text' name = 'title' value = "<?php echo $v['title']?>">
+		<p>文章类型</p>
+		<select name = 'type'>
+			<?php echo $option?>
+		</select>
+		<p>是否置顶</p>
+		<input type ='radio' name = 'recommend' <?php echo $checked0 ?> value = '0'>不置顶
+		<input type ='radio' name = 'recommend' <?php echo $checked1 ?>value = '1'>置顶
+		<p>内容</p>
+		<textarea cols = '50' rows = '10' name = 'content'><?php echo $v['content'] ?></textarea><br><br>
+		<input type = 'submit'>
+	</form>
+</div>

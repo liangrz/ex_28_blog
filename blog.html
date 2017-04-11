@@ -1,0 +1,58 @@
+<html>
+<head>
+	<meta charset = 'utf-8'>
+	<link rel = 'stylesheet' href = './css/main.css'>
+	<link rel = 'stylesheet' href = './css/comment.css'>
+	<title>liangrz's blog</title>
+</head>
+<body>
+<div id ='wrapper'>
+	<div id = 'top'>
+		<h1><a href='./admin.php'>liangrz's blog</a></h1>
+	</div>
+	<div id = 'menu'>
+		<ul>
+			<li class = 'fl'>
+				<a href ='./index.php'>首页</a>
+			</li>
+			<?php echo $menu; ?>
+		</ul>
+	</div>
+	<div id = 'page'>
+		<div id = 'sidebar' class = 'fl'>
+			<div class = 'hot'>
+				<div class = 'title'>
+					<h2>热门文章</h2>
+				</div>
+				<div class = 'list'>
+				<ul>
+					<?php echo $hot ?>
+				</ul>
+				</div>
+			</div>
+			<div class = 'recommend'>
+				<div class = 'title'>
+					<h2>推荐文章</h2>
+				</div>
+				<div class = 'list'>
+				<ul>
+					<?php echo $recom ?>
+				</ul>
+				</div>
+			</div>
+		</div>
+		<div id = 'content' class = 'fr'>
+			<?php echo $post ;?>
+			<?php echo $article ;?>
+		</div>
+	</div>
+	<div id = 'page_index' class = 'fr'>
+		<ul>
+			<?php echo $page_index ;?>
+		</ul>
+	</div>
+	<div class = 'clearfix'></div>
+	<div id = 'bottom'>Copyright (c) 2017 Sitename.com. All rights reserved.</div>
+</div>
+</body>
+</html>

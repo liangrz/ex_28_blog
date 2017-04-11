@@ -1,0 +1,40 @@
+<html>
+<head>
+	<meta charset = 'utf-8'>
+	<link rel = 'stylesheet' href = './css/admin.css'>
+	<title>liangrz's blog</title>
+	<script>
+	function jump(){
+		document.getElementById('index')
+	}
+		
+	</script>
+</head>
+<body>
+	<div class = 'wrapper'>
+		<div class = 'sidebar'>
+			<div class = 'logo'>
+				<a href = './admin.php'><img src = './img/logo.png'></a>
+			</div>
+			<div class = 'logout fr'>
+				<a href = './index.php'>查看网站</a> | <a href = './logout'>登出</a>
+			</div>
+			<div class = 'clearfix'></div>
+			<div class = 'menu'>
+				<ul>
+					<a href='./admin.php'><li><div id='index' class = 'menu_item fr'>首页面板</div></li></a>
+					<li><div class = 'menu_item fr'>博客设置</div></li>
+					<li><div class = 'menu_item fr'>文章管理</div></li>
+					<li><div class = 'menu_item fr'>文章类型管理</div></li>
+				</ul>
+			</div>
+		</div>
+		<div class = 'main'>
+			<h2>欢迎管理员 admin</h2>
+			<?php include($show)?>
+			<p id='copyright'>© Copyright 2009 Your Company</p>
+		</div>
+		
+	</div>
+</body>
+</html>
